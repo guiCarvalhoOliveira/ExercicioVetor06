@@ -22,12 +22,12 @@ public class App {
             }
         }
         if (encontrado) {
-            System.out.println("\nVetor após remoção:");
+            System.out.println("Vetor após remoção:");
             for (int i = 0; i < 10; i++) {
                 System.out.print(vetor[i] + " ");
             }
         } else {
-            System.out.println("\nNúmero não encontrado no vetor.");
+            System.out.println("Número não encontrado no vetor.");
         }
         sc.close();
     }
